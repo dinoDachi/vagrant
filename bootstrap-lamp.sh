@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 apt-get -y update
-sudo apt-get install lamp-server^ -y
+apt-get -y install git php5 php5-curl php5-mcrypt php5-mysql php5-cli php5-xdebug apache2
 sudo ln -s /vagrant/* /var/www
 sudo rm /etc/apache2/sites-available/*
 sudo rm /etc/apache2/sites-enabled/*

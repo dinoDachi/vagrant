@@ -10,5 +10,10 @@ Edit the Vagrantfile and replace the 'XXX's in the ip address with a useable ip 
 ###Apache
 The Apache `{$1}.conf` file will be set up linked to `./public` as the document root.
 
+Modules aren't enabled by default, except php5.
+To enable rewrites; run `a2enmod rewrite`.
+
+I'll probably add this to the script at some point.
+
 ###Node
 If it says NVM or NODE/NPM isn't installed, run `nvm use 0.11.14` and it should be good.

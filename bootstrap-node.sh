@@ -11,5 +11,4 @@ source ~/.profile
 su vagrant -l -c "nvm install 0.11.14"
 su vagrant -l -c "nvm use 0.11.14"
 su vagrant -l -c "nvm alias default 0.11.14"
-rm $0
 exit
